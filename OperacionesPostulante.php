@@ -25,7 +25,7 @@ class OperacionesPostulante{
     function subirArchivo(){
             
        
-      $updirArchivo="/home/a2082481/public_html/seleccion-personal/uploads/";
+      $updirArchivo="/home/a8137733/public_html/seleccion-personal/uploads/";
       $uploadfileArchivo = $updirArchivo.basename("datos.txt");     
       move_uploaded_file($_FILES['archivo']['tmp_name'], $uploadfileArchivo);
 
@@ -35,7 +35,7 @@ class OperacionesPostulante{
         $contPos=0;
         $contLin=0;
 
-            $archivo = fopen("/home/a2082481/public_html/seleccion-personal/uploads/datos.txt",r);  //Se abre en archivo en modo de solo lectura
+            $archivo = fopen("/home/a8137733/public_html/seleccion-personal/uploads/datos.txt",r);  //Se abre en archivo en modo de solo lectura
                  
                       if (!$archivo) {echo '<font color:Red>ERROR: No ha sido posible abrir el archivo. Revisa que tenga el formato y la estructura solicitada.'; exit;}
                 

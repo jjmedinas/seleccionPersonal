@@ -1,7 +1,7 @@
 <?php
-   require ('/home/a2082481/public_html/seleccion-personal/OperacionesPostulante.php');
-   require_once ('/home/a2082481/public_html/seleccion-personal/src/jpgraph.php');
-   require_once ('/home/a2082481/public_html/seleccion-personal/src/jpgraph_line.php');
+   require ('/home/a8137733/public_html/seleccion-personal/OperacionesPostulante.php');
+   require_once ('/home/a8137733/public_html/seleccion-personal/src/jpgraph.php');
+   require_once ('/home/a8137733/public_html/seleccion-personal/src/jpgraph_line.php');
    
   
   $operacionesPostulante= new OperacionesPostulante();
