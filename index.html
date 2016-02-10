@@ -1,0 +1,316 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Aplicacion Seleccion de Personal</title>
+	
+    <!-- css -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+	<link href="css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="css/animations.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	
+	<section class="hero" id="intro">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12 text-right navicon">
+                  <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center inner">
+					<div class="animatedParent">
+						<h1 class="animated fadeInDown"><font color="gray" size =" 7">SELECCION DE PERSONAL</font></h1>
+						<p class="animated fadeInUp">Utilizando logica difusa</p>
+					</div>
+			   </div>
+              </div>
+              <div class="row">
+                <div class="col-md-6 col-md-offset-3 text-center">
+                  <a href="#recomendaciones" class="learn-more-btn btn-scroll">Iniciar</a>
+                </div>
+              </div>
+            </div>
+    </section>
+	
+	
+    <!-- Navigation -->
+    <div id="navigation">
+        <nav class="navbar navbar-custom" role="navigation">
+                              <div class="container">
+                                    <div class="row">
+                                          <div class="col-md-2">
+                                                   <div class="site-logo">
+                                                            <a href="index.html" class="brand"></a>
+                                                    </div>
+                                          </div>
+                                          
+
+                                          <div class="col-md-10">
+                         
+                                                      <!-- Brand and toggle get grouped for better mobile display -->
+                                          <div class="navbar-header">
+                                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+                                          </div>
+                                                      <!-- Collect the nav links, forms, and other content for toggling -->
+                                                      <div class="collapse navbar-collapse" id="menu">
+                                                            <ul class="nav navbar-nav navbar-right">
+                                                                  <li class="active"><a href="#intro">Inicio</a></li>
+                                                                  <li><a href="#importarDatos">Importar Datos</a></li>
+                                                                  <li><a href="#ayuda">Ayuda</a></li>				              
+                                                            </ul>
+                                                      </div>
+                                                      <!-- /.Navbar-collapse -->
+                             
+                                          </div>
+                                    </div>
+                              </div>
+                              <!-- /.container -->
+                        </nav>
+    </div> 
+    <!-- /Navigation -->  
+
+	<!-- Section: recomendaciones -->
+    <section id="recomendaciones" class="home-section color-dark bg-white">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="animatedParent">
+					<div class="section-heading text-center animated bounceInDown">
+					<h2 class="h-bold"><font size="7">Preste atención :</font></h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="container">
+
+		
+        <div class="row">
+		
+		
+            <div class="col-lg-8 col-lg-offset-2 animatedParent">		
+				<div class="text-center"><font size="5">
+					<p>
+					Haga click en Importar Datos sí ya conoce la estructura y el formato del archivo a importar.
+					</p>
+					<p>
+					De lo contrario presione la opcion Ayuda.</p>
+					
+					</font></p><br>
+						<a href="#importarDatos" class="btn btn-skin btn-scroll">  Importar  Datos  </a>
+						<a href="#ayuda" class="btn btn-skin btn-scroll">Ayuda</a>
+				</div>
+            </div>
+		
+
+        </div>		
+		</div>
+
+	</section>
+	<!-- /Section: recomendaciones -->
+
+	
+	
+	<!-- Section: importarDatos -->
+    <section id="importarDatos" class="home-section color-dark bg-gray">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Importando Datos</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row animatedParent">
+            
+			<div class="col-xs-12 col-sm-12 col-md-12">
+				<div class="animated rotateInDownLeft slow">
+                <div class="">
+					<div class="service-icon">
+						<span class="fa fa-cog fa-spin fa-3x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Esperando la carga de archivos</h5>
+						<div class="divider-header"></div>
+						<p>
+						Recuerde seguir las recomendaciones de la seccion Ayuda.
+						</p>
+							
+									</div>
+                </div>
+				</div>
+        </div>
+
+        <div class="row marginbot-80">
+				<div class="col-md-4 col-md-offset-4">
+						<form id="form-Archivo" action="OperacionesPostulante.php" method="POST" enctype =  "multipart/form-data">
+						
+							<div class="form-group">
+							<input id="archivo" name ="archivo" type="file" class="file" multiple=true data-preview-file-type="any">
+							<br/>							
+							<button type="submit" class="btn btn-skin btn-lg btn-block" id="btnSubir">
+							Subir Archivo</button>
+							</div>
+							
+						</form>
+				</div>
+		</div>	
+			
+
+        </div>		
+		</div>
+		</div>
+	</section>
+	<!-- /Section: importarDatos -->
+	
+
+	<!-- Section: ayuda -->
+    <section id="ayuda" class="home-section color-dark bg-gray">
+		<div class="container marginbot-50">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div>
+					<div class="section-heading text-center">
+					<h2 class="h-bold">Ayuda</h2>
+					<div class="divider-header"></div>
+					</div>
+					</div>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="text-center">
+		<div class="container">
+
+        <div class="row animatedParent">
+            <div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-file-text-o fa-3x"></span> 
+					</div>
+					<div class="service-desc">						
+						<h5>Formato del Archivo</h5>
+						<div class="divider-header"></div>
+						<p>
+						Se debe importar un archivo de texto plano (.txt)
+						Si tienes los datos en Excel puedes exportar el archivo a éste formato y elegir como separador el punto y coma (;).
+						Los valores numericos que representen los campos para cada uno de los postulantes deben ir de cero (0) a uno (1) y los valores decimales representados con punto (.). Por ejemplo 0.2 , 0.5, etc.
+
+						</p>
+						
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft slow">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-cloud-upload fa-3x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Importando Datos</h5>
+						<div class="divider-header"></div>
+						<p>
+						La estructura debe ser la siguiente:
+						En la primera linea debe tener el nombre de los campos separados por punto y coma (Eje. Nombre; Puntualidad;etc).
+						En la segunda linea se deben ingresar los valores de referencia separados por punto y coma. Se debe prestar atencion a que sean igual a la cantidad de campos ingresados (Sin incluir el nombre, solo datos numericos).
+						En las demas lineas deben ir los datos de los postulantes en el mismo orden que se ingresaron los campos Se debe ingresar el nombre y separarlo de los valores de referencia por medio de un guion (-); los valores de referencia se separan con punto y coma(Eje. Pedro Mora-0.3;0,7;0,6ect).
+
+						</p>
+						
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-4 col-md-4">
+				<div class="animated rotateInDownLeft slower">
+                <div class="service-box">
+					<div class="service-icon">
+						<span class="fa fa-check fa-2x"></span> 
+					</div>
+					<div class="service-desc">
+						<h5>Listo!</h5>
+						<div class="divider-header"></div>
+						<p>
+						Si sigues correctamente las recomendaciones la aplicacion te mostrará como resultado el nombre del postulante cuyo perfil sea el que mas se acerque a los valores de referencia.
+						</p>
+						
+					</div>
+                </div>
+				</div>
+            </div>
+
+        </div>		
+		</div>
+		</div>
+	</section>
+	<!-- /Section: ayuda -->
+
+	
+
+
+
+
+
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<ul class="footer-menu">
+						
+					</ul>
+				</div>
+				<div class="col-md-6 text-right">
+					<p>&copy;Copyright 2015 - Juan Medina - Universidad Distrital - Bogota </p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>	 
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+	<script src="js/jquery.sticky.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/jquery.appear.js"></script>
+	<script src="js/stellar.js"></script>
+	<script src="js/nivo-lightbox.min.js"></script>
+	
+    <script src="js/custom.js"></script>
+	<script src="js/css3-animate-it.js"></script>
+
+</body>
+
+</html>

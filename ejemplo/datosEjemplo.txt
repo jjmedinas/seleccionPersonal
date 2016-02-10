@@ -1,0 +1,9 @@
+P. Personal;Idioma;Manejo de Presion; Conocimientos Redes;Proactivo;Experiencia;
+0.3;0.5;1;0.8;0.4;0.5
+Tatiana-0.7;0.6;1;0.3;0.1;0.7
+Andrea-0.1;0.8;0.9;1;0.7;0.5
+Juan-0.8;0.3;0.8;0.9;0.5;0.2
+Julian-0.9;0.3;1;0.4;0.9;0.8
+Viviana-0.5;0.9;0.7;0.8;0.5;0.3
+Lina-0.6;0.6;0.9;0.8;0.5;0.5
+
