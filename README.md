@@ -40,5 +40,5 @@ se puede descargar [este archivo] (ejemplo/datos.txt), o copiar y guardar su con
 
 
 ###Para probar la aplicacion, siga el siguiente link:
-[Prueba online] (http://seleccion-personal.juan-medina.xyz/)<br>
+[Juan-medina-xyz] (http://seleccion-personal.juan-medina.xyz/)<br>
 
